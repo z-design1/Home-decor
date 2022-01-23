@@ -12,9 +12,14 @@
     filter: drop-shadow(10px 10px 4px rgb(136, 135, 135));
 }
 .home-p {
-    padding: 12px;
-    font-size: 150%;
-    font-family: sans-serif;
+    font-family: 'Cinzel', serif;
+    color: rgb(65, 55, 25);
+    line-height: 30px;
+    text-align: center;
+}
+.home-p2 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
     color: rgb(65, 55, 25);
     line-height: 30px;
     text-align: center;
@@ -36,9 +41,8 @@ nav {
     padding: 2%;
     margin-top: 2%;
     margin-bottom: 6%;
-    font-weight: bold;
     font-size: 14px;
-    font-family: sans-serif;
+    font-family: 'Unna', serif;
     max-width: 100px;
     border-radius: 5px;
 }
@@ -91,13 +95,13 @@ body {
 }
 .product-title {
     color: #29271D;
-    font-family: sans-serif;
+    font-family: 'Cinzel', serif;
     font-size: 25px;
     text-align: center;
 }
 .see-more {
     color: #29271D;
-    font-family: sans-serif;
+    font-family: 'Unna', serif;
     font-size: 16px;
     text-align: center;
 }
@@ -111,11 +115,13 @@ body {
     max-width: 100%;
 }
 .pr-detail {
-    font-family: sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+
     text-align: center;
     max-width: 950px;
 }
 .price {
+    font-family: 'Unna', serif;
     padding-top: 8%;
     font-size: 24px;
 }
@@ -127,7 +133,7 @@ button {
 }
 .product-title-detail {
     color: #29271D;
-    font-family: sans-serif;
+    font-family: 'Cinzel', serif;
     font-size: 35px;
 }
 .detail-header-content {
@@ -136,6 +142,9 @@ button {
 .icon {
     filter: drop-shadow(4px 4px 3px rgb(134, 133, 133));
 }
+.btn {
+    font-family: 'Unna', serif;
+}
 /* media queries */
 @media only screen and (min-width: 620px) {
 nav {
@@ -143,7 +152,7 @@ nav {
     margin-left: 8%;
 }
 .home-p {
-    font-size: 22px;
+    font-size: 32px;
 }
 .logo-container {
     margin: 0 0 0 28%
@@ -166,9 +175,6 @@ nav {
 }
 }
 @media only screen and (min-width: 900px) {
-.home-p {
-    font-size: 22px;
-}
 .logo-container {
     margin: 0 0 0 35%
 }
@@ -189,10 +195,6 @@ nav {
     .home-p-container {
     margin: 0 24%;
     font-size: 1.3rem;
-}
-.home-p {
-    line-height: 35px;
-    margin: 0;
 }
 nav {
     margin-top: 5%;
